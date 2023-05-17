@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset="UTF-8">
+<div class="backimage-overlay">
+
+<title>Clothing Products Customization Website</title>
+<link rel="stylesheet" type="text/css" href="project.css">
+<link rel="stylesheet1" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/4.9.95/css/materialdesignicons.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ 
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script type="text/javascript" src="jquery.drawr.combined.js?v=2"></script>
+
+</head>
+
+
+<body background="images\wooden.jpg" class="backimage"> 
+
+<header>
+<div class="main">
+<div class="menu-bar">
+<div class="title">
+<h1>Custom Attire  <i class="mdi mdi-content-cut" ></i></h1>
+</div>
+
+<ul>
+<li><a href="custom.php"class="button" onclick="document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='none',document.getElementById('id03').style.display='none',document.getElementById('id04').style.display='block',document.getElementById('id05').style.display='block',document.getElementById('id06').style.display='none',document.getElementById('id07').style.display='none'"><i class="fa fa-home"></i>  Home</a></li>
+<li><a href="custom.php" class="button" onclick="document.getElementById('id01').style.display='block',document.getElementById('id02').style.display='none',document.getElementById('id03').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='none',document.getElementById('id07').style.display='none'"><i class="fa fa-sign-in"></i>  Log-In</a></li>
+<li><a href="custom.php" class="button" onclick="document.getElementById('id02').style.display='block',document.getElementById('id01').style.display='none',document.getElementById('id03').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='none',document.getElementById('id07').style.display='none'"><i class="fa fa-user-plus"></i>  Registration</a></li>
+<li><a href="custom.php" class="button" onclick="document.getElementById('id03').style.display='block',document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='none',document.getElementById('id07').style.display='none'"><i class="fa fa-shopping-bag"></i>  Products</a></li>
+<li><a href="draw.html" class="button" onclick="document.getElementById('id03').style.display='block',document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='block',document.getElementById('id07').style.display='none'"><i class="fa fa-pencil"></i>  Design Lab</a></li>
+<li><a href="help.html" class="button active" onclick="document.getElementById('id08').style.display='block',document.getElementById('id07').style.display='none',document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='none',document.getElementById('id03').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='none'"><i class="fa fa-question-circle"></i>  Help</a></li>
+<li><a href="aboutus.html" class="button " onclick="document.getElementById('id07').style.display='block',document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='none',document.getElementById('id03').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='none'"><i class="fa fa-user-circle-o"></i>  About-Us</a></li>
+</ul>
+</div>
+
+<img src="images\stitch.jpg" class="print"> <!-- Adding image -->
+
+<div class="tips">
+
+<a href="tips.html"><h2 class="create1"><i class="fa fa-thumb-tack"></i> Tips to create a design</h2></a>  <!-- Link for tips -->
+<a href="faq.html"><h2 class="create2"><i class="fa fa-quora"></i>Frequently Asked Questions</h2></a>    <!-- Link for faq -->
+<a href="termsconditions.html"><h2 class="create3"><i class="fa fa-file-text-o"></i> Terms And Conditions</h2></a>  <!-- Link for terms and conditions -->
+<a href="customerservice.html"><h2 class="create4"><i class="fa fa-user-o"></i> Customer Service</h2></a>   <!-- Link for customer service -->
+<a href="secure.html"><h2 class="create5"><i class="mdi mdi-security"></i> Secure Shopping</h2></a>       <!-- Link for secure shopping -->
+<a href="orderhelp.html"><h2 class="create6"><i class="mdi mdi-cart-outline"></i> Ordering Help</h2></a>   <!-- Link for ordering help -->
+<a href="privacy.html"><h2 class="create7"><i class="fa fa-user-secret"></i> Privacy Policy</h2></a>        <!-- Link for Privacy Policy -->
+<a href="shipping.html"><h2 class="create8"><i class="mdi mdi-truck-delivery"></i> Shipping And Delivery</h2></a>   <!-- Link for Shipping and Delivery -->
+
+
+</div>
+
+
+<style>  /* CSS code for styling of help module */
+.backimage-overlay{
+	background-color:rgba(0,0,0,0.3);
+    height:300%;
+	background-position:center-left;
+	background-size:cover;
+	
+}
+.backimage{
+height:70vh;
+}
+.button.active {
+  background-color:white;
+   color: black;
+}
+.title h1{
+	color:white;
+	font-size:50px;
+    font-family:Aharoni;
+	
+}
+.print{
+position:absolute;
+top:60%;
+right:5%;
+width:30%;
+height:40%;
+box-shadow: 10px 10px 10px black;
+-ms-transform: rotate(30deg); /* IE 9 */
+  transform: rotate(30deg);
+}
+ul{
+	float: right;
+	list-style-type:none;
+	margin-top: 100px;
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 30px;
+	background-color:black;
+	transition:0.6s ease;
+}
+ul li a:hover{
+	background-color:white;
+	color:#000;
+}
+ul li.active a{
+	background-color:white;
+	color:#000;
+}
+
+#id08{
+	display:none;
+}
+
+.create1{
+position:absolute;
+top:200px;
+left:80px;
+}
+.create2{
+position:absolute;
+top:250px;
+left:80px;
+}
+.create3{
+position:absolute;
+top:300px;
+left:80px;
+}
+.create4{
+position:absolute;
+top:350px;
+left:80px;
+}
+.create5{
+position:absolute;
+top:400px;
+left:80px;
+}
+.create6{
+position:absolute;
+top:450px;
+left:80px;
+}
+.create7{
+position:absolute;
+top:500px;
+left:80px;
+}
+.create8{
+position:absolute;
+top:550px;
+left:80px;
+}
+.tips h2{
+font-size:26px;
+}
+.tips a{
+	
+	color:#d1d1e0;
+}
+.tips a:hover{
+color:white;
+}
+</style>
+
+
+
+
+
+
+</body>
+</html>

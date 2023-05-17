@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset="UTF-8">
+<div class="backimage-overlay">
+
+<title>Clothing Products Customization Website</title>
+<link rel="stylesheet" type="text/css" href="project.css">
+<link rel="stylesheet1" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/4.9.95/css/materialdesignicons.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ 
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script type="text/javascript" src="jquery.drawr.combined.js?v=2"></script>
+
+</head>
+
+
+<body background="images\wooden.jpg" class="backimage"> 
+
+<header>
+<div class="main">
+<div class="menu-bar">
+<div class="title">
+<h1>Custom Attire  <i class="mdi mdi-content-cut" ></i></h1>
+</div>
+
+<ul>
+<li><a href="custom.php"class="button" onclick="document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='none',document.getElementById('id03').style.display='none',document.getElementById('id04').style.display='block',document.getElementById('id05').style.display='block',document.getElementById('id06').style.display='none',document.getElementById('id07').style.display='none'"><i class="fa fa-home"></i>  Home</a></li>
+<li><a href="custom.php" class="button" onclick="document.getElementById('id01').style.display='block',document.getElementById('id02').style.display='none',document.getElementById('id03').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='none',document.getElementById('id07').style.display='none'"><i class="fa fa-sign-in"></i>  Log-In</a></li>
+<li><a href="custom.php" class="button" onclick="document.getElementById('id02').style.display='block',document.getElementById('id01').style.display='none',document.getElementById('id03').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='none',document.getElementById('id07').style.display='none'"><i class="fa fa-user-plus"></i>  Registration</a></li>
+<li><a href="custom.php" class="button" onclick="document.getElementById('id03').style.display='block',document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='none',document.getElementById('id07').style.display='none'"><i class="fa fa-shopping-bag"></i>  Products</a></li>
+<li><a href="draw.html" class="button" onclick="document.getElementById('id03').style.display='block',document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='block',document.getElementById('id07').style.display='none'"><i class="fa fa-pencil"></i>  Design Lab</a></li>
+<li><a href="help.html" class="button active" onclick="document.getElementById('id08').style.display='block',document.getElementById('id07').style.display='none',document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='none',document.getElementById('id03').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='none'"><i class="fa fa-question-circle"></i>  Help</a></li>
+<li><a href="aboutus.html" class="button " onclick="document.getElementById('id07').style.display='block',document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='none',document.getElementById('id03').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='none'"><i class="fa fa-user-circle-o"></i>  About-Us</a></li>
+</ul>
+</div>
+
+<div class="tips">  <!-- Code for tips -->
+<a href="help.html"><h2 class="create1"><i class="fa fa-thumb-tack"></i> Tips to create a design</h2></a>
+
+<h2 class="step1">Step 1 :</h2>
+<p class="tip1"> Click on the    <i class="fa fa-pencil"></i>Design Lab.</p>
+<h2 class="step2">Step 2 :</h2>
+<p class="tip2"> Select Categories <i class="mdi mdi-tshirt-crew"></i> panel to choose a different product for your design.</p>
+<h2 class="step3">Step 3 :</h2>
+<p class="tip3"> Select Add Colour <i class="fa fa-paint-brush"></i> panel to colour the current product.</p>
+<h2 class="step4">Step 4 :</h2>
+<p class="tip4"> From Add Art <i class="fa fa-picture-o"  ></i> panel Drag and Drop creative clip arts.</p>
+<h2 class="step5">Step 5 :</h2>
+<p class="tip5"> From Toolbox select different types of brushes, pencil, spray and marker to design the current product.</p> 
+<h2 class="step6">Step 6 :</h2>
+<p class="tip6"> Select <i class="mdi mdi-vector-square"></i> to draw square and rectangle shapes.</p>
+<h2 class="step7">Step 7 :</h2>
+<p class="tip7"> Select <i class="mdi mdi-format-text" ></i> to add text to the product.</p>
+<h2 class="step8">Step 8 :</h2>
+<p class="tip8"> Select <i class="mdi mdi-palette"></i> to colour the text, shapes, etc.</p>
+<h2 class="step9">Step 9 :</h2>
+<p class="tip9"> Select <i class="mdi mdi-eraser"></i> to erase the created design.</p>
+<h2 class="step10">Step 10 :</h2>
+<p class="tip10"> Select <i class="fa fa-search"></i> to Zoom in to show your design in more detail.When u select zoom tab you can zoom-in and zoom-out from the range slider.</p>
+<h2 class="step11">Step 11 :</h2>
+<p class="tip11"> Select <i class="mdi mdi-content-save"></i> to save your design.</p>
+<h2 class="step12">Step 12 :</h2>
+<p class="tip12"> Select <i class="mdi mdi-arrow-all"></i> to adjust the canvas.</p>
+<h2 class="step13">Step 13 :</h2>
+<p class="tip13"> Select <i class="mdi mdi-undo-variant"></i> to undo all the current design.</p>
+<h2 class="step14">Step 14 :</h2>
+<p class="tip14"> Select <i class="mdi mdi-folder-open"></i> to add your arts from the saved files.</p>
+<h2 class="step15">Step 15 :</h2>
+<p class="tip15"> Select Size Table <i class="fa fa-crosshairs" ></i> to change the product size.</p>
+
+
+</div>
+<div class="design">
+<a href="draw.html" <i class="fa fa-pencil"></i>  Start Designing</a>  <!-- Specifies link for Design Lab module -->
+</div>
+
+<style>
+.backimage-overlay{
+	background-color:rgba(0,0,0,0.3);
+    height:300%;
+	background-position:center-left;
+	background-size:cover;
+	
+}
+.title h1{
+	color:white;
+	font-size:50px;
+    font-family:Aharoni;
+	
+}
+.backimage{
+height:70vh;
+}
+.button.active {
+  background-color:white;
+   color: black;
+}
+
+ul{
+	float: right;
+	list-style-type:none;
+	margin-top: 100px;
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 30px;
+	background-color:black;
+	transition:0.6s ease;
+}
+ul li a:hover{
+	background-color:white;
+	color:#000;
+}
+ul li.active a{
+	background-color:white;
+	color:#000;
+}
+
+#id08{
+	display:none;
+}
+
+.create1{
+position:absolute;
+top:200px;
+left:80px;
+}
+
+.tips h2{
+font-size:26px;
+}
+.tips a{
+	
+	color:#d1d1e0;
+}
+.tips a:hover{
+color:white;
+}
+.step1{
+position:absolute;
+top:270px;
+left:110px;
+color:white;
+}
+.tip1{
+position:absolute;
+top:270px;
+left:220px;
+color:#d1d1e0;
+font-size:24px;
+}
+
+.step2{
+position:absolute;
+top:300px;
+left:110px;
+color:white;
+}
+.tip2{
+position:absolute;
+top:300px;
+left:220px;
+color:#d1d1e0;
+font-size:24px;
+}
+
+.step3{
+position:absolute;
+top:330px;
+left:110px;
+color:white;
+}
+.tip3{
+position:absolute;
+top:330px;
+left:220px;
+color:#d1d1e0;
+font-size:24px;
+}
+
+.step4{
+position:absolute;
+top:360px;
+left:110px;
+color:white;
+}
+.tip4{
+position:absolute;
+top:360px;
+left:220px;
+color:#d1d1e0;
+font-size:24px;
+}
+.step5{
+position:absolute;
+top:390px;
+left:110px;
+color:white;
+}
+.tip5{
+position:absolute;
+top:390px;
+left:220px;
+color:#d1d1e0;
+font-size:24px;
+}
+.step6{
+position:absolute;
+top:420px;
+left:110px;
+color:white;
+}
+.tip6{
+position:absolute;
+top:420px;
+left:220px;
+color:#d1d1e0;
+font-size:24px;
+}
+.step7{
+position:absolute;
+top:450px;
+left:110px;
+color:white;
+}
+.tip7{
+position:absolute;
+top:450px;
+left:220px;
+color:#d1d1e0;
+font-size:24px;
+}
+.step8{
+position:absolute;
+top:480px;
+left:110px;
+color:white;
+}
+.tip8{
+position:absolute;
+top:480px;
+left:220px;
+color:#d1d1e0;
+font-size:24px;
+}
+.step9{
+position:absolute;
+top:510px;
+left:110px;
+color:white;
+}
+.tip9{
+position:absolute;
+top:510px;
+left:220px;
+color:#d1d1e0;
+font-size:24px;
+}
+.step10{
+position:absolute;
+top:540px;
+left:110px;
+color:white;
+}
+.tip10{
+position:absolute;
+top:540px;
+left:220px;
+color:#d1d1e0;
+font-size:24px;
+}
+.step11{
+position:absolute;
+top:600px;
+left:110px;
+color:white;
+}
+.tip11{
+position:absolute;
+top:600px;
+left:220px;
+color:#d1d1e0;
+font-size:24px;
+}
+.step12{
+position:absolute;
+top:630px;
+left:110px;
+color:white;
+}
+.tip12{
+position:absolute;
+top:630px;
+left:220px;
+color:#d1d1e0;
+font-size:24px;
+}
+.step13{
+position:absolute;
+top:660px;
+left:110px;
+color:white;
+}
+.tip13{
+position:absolute;
+top:660px;
+left:220px;
+color:#d1d1e0;
+font-size:24px;
+}
+.step14{
+position:absolute;
+top:690px;
+left:110px;
+color:white;
+}
+.tip14{
+position:absolute;
+top:690px;
+left:220px;
+color:#d1d1e0;
+font-size:24px;
+}
+.step15{
+position:absolute;
+top:720px;
+left:110px;
+color:white;
+}
+.tip15{
+position:absolute;
+top:720px;
+left:220px;
+color:#d1d1e0;
+font-size:24px;
+}
+
+.design{
+position:absolute;
+top:800px;
+left:800px;
+font-size:24px;
+}
+.design a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 30px;
+	background-color:black;
+	transition:0.6s ease;
+}
+.design a:hover{
+	background-color:white;
+	color:#000;
+}
+</style>
+
+
+
+
+
+
+</body>
+</html>

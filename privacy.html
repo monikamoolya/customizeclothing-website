@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset="UTF-8">
+<div class="backimage-overlay">
+
+<title>Clothing Products Customization Website</title>
+<link rel="stylesheet" type="text/css" href="project.css">
+<link rel="stylesheet1" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/4.9.95/css/materialdesignicons.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ 
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script type="text/javascript" src="jquery.drawr.combined.js?v=2"></script>
+
+</head>
+
+
+<body background="images\wooden.jpg" class="backimage"> 
+
+<header>
+<div class="main">
+<div class="menu-bar">
+<div class="title">
+<h1>Custom Attire  <i class="mdi mdi-content-cut" ></i></h1>
+</div>
+
+<ul>
+<li><a href="custom.php"class="button" onclick="document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='none',document.getElementById('id03').style.display='none',document.getElementById('id04').style.display='block',document.getElementById('id05').style.display='block',document.getElementById('id06').style.display='none',document.getElementById('id07').style.display='none'"><i class="fa fa-home"></i>  Home</a></li>
+<li><a href="custom.php" class="button" onclick="document.getElementById('id01').style.display='block',document.getElementById('id02').style.display='none',document.getElementById('id03').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='none',document.getElementById('id07').style.display='none'"><i class="fa fa-sign-in"></i>  Log-In</a></li>
+<li><a href="custom.php" class="button" onclick="document.getElementById('id02').style.display='block',document.getElementById('id01').style.display='none',document.getElementById('id03').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='none',document.getElementById('id07').style.display='none'"><i class="fa fa-user-plus"></i>  Registration</a></li>
+<li><a href="custom.php" class="button" onclick="document.getElementById('id03').style.display='block',document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='none',document.getElementById('id07').style.display='none'"><i class="fa fa-shopping-bag"></i>  Products</a></li>
+<li><a href="draw.html" class="button" onclick="document.getElementById('id03').style.display='block',document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='block',document.getElementById('id07').style.display='none'"><i class="fa fa-pencil"></i>  Design Lab</a></li>
+<li><a href="help.html" class="button active" onclick="document.getElementById('id08').style.display='block',document.getElementById('id07').style.display='none',document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='none',document.getElementById('id03').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='none'"><i class="fa fa-question-circle"></i>  Help</a></li>
+<li><a href="aboutus.html" class="button " onclick="document.getElementById('id07').style.display='block',document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='none',document.getElementById('id03').style.display='none',document.getElementById('id04').style.display='none',document.getElementById('id05').style.display='none',document.getElementById('id06').style.display='none'"><i class="fa fa-user-circle-o"></i>  About-Us</a></li>
+</ul>
+</div>
+
+<div class="tips">
+
+<a href="help.html"><h2 class="create7"><i class="fa fa-user-secret"></i> Privacy Policy</h2></a>  <!-- Code for privacy policy -->
+<h4 class="point1">1.</h4>
+<p class="privacy1"> We receive and store your information when you visit our site.</p>
+<h4 class="point2">2.</h4>
+<p class="privacy2"> If you don't provide certain information, then you might not be able to take advantage of some of our features.</p>
+<h4 class="point3">3.</h4>
+<p class="privacy3"> We use your information for such purposes eg. for responding to your queries, customizing products and communicating with you.</p> 
+<h4 class="point4">4.</h4>
+<p class="privacy4"> We do not sell, misuse or share your information.</p>
+<h4 class="point5">5.</h4>
+<p class="privacy5"> These details help us in reaching you easily and your privacy is been taken care of.</p>
+
+
+
+
+</div>
+<style>
+.backimage-overlay{
+	background-color:rgba(0,0,0,0.3);
+    height:300%;
+	background-position:center-left;
+	background-size:cover;
+	
+}
+.title h1{
+	color:white;
+	font-size:50px;
+    font-family:Aharoni;
+	
+}
+.backimage{
+height:70vh;
+}
+.button.active {
+  background-color:white;
+   color: black;
+}
+
+ul{
+	float: right;
+	list-style-type:none;
+	margin-top: 100px;
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 30px;
+	background-color:black;
+	transition:0.6s ease;
+}
+ul li a:hover{
+	background-color:white;
+	color:#000;
+}
+ul li.active a{
+	background-color:white;
+	color:#000;
+}
+
+#id08{
+	display:none;
+}
+
+.create7{
+position:absolute;
+top:200px;
+left:60px;
+}
+
+.tips h2{
+font-size:26px;
+}
+.tips a{
+	
+	color:#d1d1e0;
+}
+.tips a:hover{
+color:white;
+}
+.point1{
+position:absolute;
+top:270px;
+left:90px;
+color:white;
+font-size:24px;
+}
+.privacy1{
+position:absolute;
+top:270px;
+left:120px;
+color:white;
+font-size:24px;
+}
+.point2{
+position:absolute;
+top:320px;
+left:90px;
+color:white;
+font-size:24px;
+}
+.privacy2{
+position:absolute;
+top:320px;
+left:120px;
+color:white;
+font-size:24px;
+}
+.point3{
+position:absolute;
+top:370px;
+left:90px;
+color:white;
+font-size:24px;
+}
+.privacy3{
+position:absolute;
+top:370px;
+left:120px;
+color:white;
+font-size:24px;
+}
+.point4{
+position:absolute;
+top:450px;
+left:90px;
+color:white;
+font-size:24px;
+}
+.privacy4{
+position:absolute;
+top:450px;
+left:120px;
+color:white;
+font-size:24px;
+}
+.point5{
+position:absolute;
+top:500px;
+left:90px;
+color:white;
+font-size:24px;
+}
+.privacy5{
+position:absolute;
+top:500px;
+left:120px;
+color:white;
+font-size:24px;
+}
+</style>
+
+
+
+
+
+
+</body>
+</html>
